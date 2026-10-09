@@ -23,7 +23,7 @@ model_mode = st.selectbox(
 
 # --- Inputs ---
 st.subheader("Input Features")
-popularity = st.number_input("Popularity Rank", min_value=1, max_value=20000, value=1500)
+popularity = st.number_input("Popularity Rank", min_value=1, max_value=10000000, value=1500)
 episodes = st.number_input("Number of Episodes", min_value=1, max_value=2000, value=12)
 season_year = st.number_input("Season Year", min_value=1950, max_value=2030, value=2023)
 
